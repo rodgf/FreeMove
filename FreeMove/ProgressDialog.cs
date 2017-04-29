@@ -8,14 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FreeMove
-{
-    public partial class ProgressDialog : Form
-    {
-        public ProgressDialog(Form1 parent)
-        {
-            Owner = parent;
-            InitializeComponent();
-        }
+namespace FreeMove {
+  public partial class ProgressDialog : Form {
+    public ProgressDialog(Form1 parent) {
+      Owner = parent;
+      InitializeComponent();
     }
+  }
 }
